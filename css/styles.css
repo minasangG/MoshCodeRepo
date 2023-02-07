@@ -1,13 +1,16 @@
 
+* {
+    box-sizing: border-box;
+}
 
-
-.product, p {
+/* .product, p {
     color: orange;
     background-color: red;
-}
+} */
 
 body {
     margin: 10px;
+    width: 300px;
 }
 
 a:visited, a:link {
@@ -18,11 +21,81 @@ a:hover, a:focus {
     color: deeppink;
 }
 
-p::first-letter {
+/* p::first-letter {
     font-size: 120px;
     font-weight: bold;
+} */
+
+p::selection {
+    background-color: pink;
 }
 
-::selection {
-    background-color: pink;
+/* p::before {
+    content: "...";
+    display: block;
+} */
+
+/* p::after {
+    content: "...";
+    display: block;
+} */
+
+li::selection {
+    background-color: red;
+}
+
+.box {
+    /* background-color: hsl(53, 20%, 40%, 0.5); */
+    width: 300px;
+    height: 300px;
+    /* background: linear-gradient(90deg, yellow 10%, dodgerblue, tomato) */
+    background: radial-gradient(red, white 30%);
+    border: 5px solid royalblue;
+    border-top: 20px solid royalblue;
+    border-width: 10px 20px 30px 40px;
+    border-bottom: 10px solid;
+}
+
+p {
+    border: 10px 10px 10px 10px;
+    border-color: blue solid;
+    padding: 10px 10px;
+    margin-top: collapse;
+}
+
+/* .boxing {
+    width: 100px;
+    height: 100px;
+    background-color: gold;
+    padding: 20px;
+    border: 10px solid orange;
+    display: inline-block;
+} */
+
+/* .boxing {
+    border: 3px solid gold;
+    width: 150px;
+    height: 150px;
+    overflow: hidden auto;
+
+} */
+
+html {
+    font-size: 62.5%;
+}
+
+.boxing {
+    /* border: 3px solid gold; */
+    /* font-size: 20px; */
+    width: 10rem; 
+    height: 100vh;
+    background-color: gold;
+    border-top: 3px solid orange;
+    display: flex;
+    writing-mode: vertical-lr;
+    font-size: 25px;
+}
+
+.boxing:hover {
+    color: deeppink;
 }
