@@ -1,0 +1,28 @@
+
+
+
+.product, p {
+    color: orange;
+    background-color: red;
+}
+
+body {
+    margin: 10px;
+}
+
+a:visited, a:link {
+    color: dodgerblue;
+}
+
+a:hover, a:focus {
+    color: deeppink;
+}
+
+p::first-letter {
+    font-size: 120px;
+    font-weight: bold;
+}
+
+::selection {
+    background-color: pink;
+}
