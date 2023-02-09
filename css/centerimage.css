@@ -60,7 +60,7 @@ body {
     place-items: center;
 }
 
-.box {
+.boxi {
     height: 100px;
     width: 10px;
     display: flex;
@@ -68,6 +68,33 @@ body {
     margin-bottom: 10px;
     justify-content: space-evenly;
     background-color: lightgreen;
-    
 
+}
+
+.boxes {
+    border: 3px solid pink;
+    position: fixed;
+
+}
+
+.box {
+    width: 5rem;
+    height: 5rem;
+    border: 3px solid green;
+}
+
+.box-one {
+    background: gold;
+    border: 1px solid red;
+}
+
+.box-two {
+    background: tomato;
+    position: absolute;
+    left: 55.5rem;
+    border: 1px solid ;
+}
+
+.box-three {
+    background: dodgerblue;
 }
