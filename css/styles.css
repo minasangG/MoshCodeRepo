@@ -17,6 +17,13 @@ body {
     background-size: cover;
 }
 
+table {
+    outline: 1px solid grey;
+}
+
+.tr-styling {
+    outline: 1px solid blue;
+}
 a:visited, a:link {
     color: dodgerblue;
 }
