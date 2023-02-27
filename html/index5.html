@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <h1>Race Registration!</h1>
+    </header>
+    <form action="">
+      <div>
+        <label for="firstname">First Name: </label>
+        <input type="text" name="firstname" id="firstname" placeholder="Enter First Name" required/>
+        <label for="lastname">Last Name: </label>
+        <input type="text" name="lastname" id="lastname" placeholder="Enter Last Name" required
+/>
+      </div>
+
+      <div>
+        <p>Select a Race:</p>
+        <label for="funrun">
+          <input type="radio" name="funrun" id="funrun" required />Fun Run 5k
+        </label>
+      </div>
+
+      <div>
+        <label for="funrun">
+          <input type="radio" name="funrun" id="funrun" required />Half Marathon
+        </label>
+      </div>
+
+      <div>
+        <label for="funrun">
+          <input type="radio" name="funrun" id="funrun" required />Full Marathon
+        </label>
+      </div>
+      <br />
+      <div>
+        <label for="userEmail">Email: </label>
+        <input type="email" name="userEmail" id="userEmail" required />
+        <label for="userPassword">Password: </label>
+        <input type="password" name="userPassword" id="userPassword"required maxlength="12"
+        />
+      </div>
+      <br />
+
+      <div>
+        <label for="ageGroup">Age Group: </label>
+        <select name="ageGroup" id="ageGroup">
+          <option value="kids">under 18</option>
+          <option value="teenagers">18-25</option>
+          <option value="tanders">25 above</option>
+        </select>
+      </div>
+      <br />
+
+      <div>
+        <input type="submit" />
+        <input type="reset" />
+      </div>
+    </form>
+
+    <label for="textarea">
+        <p>Any Suggestions? Please type below:</p>
+        <textarea rows="10" cols="40" placeholder="Type Something Here..."></textarea>
+    
+    </label>
+    <br>
+    <input type="submit" name="textarea" id="textarea">
+  </body>
+
+  <!-- ^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[a-zA-Z].{8,}$)) -->
+</html>
+
+<!-- 
+^(?-.*\d)
+(?=.*[a-z])
+(?=.*[A-Z])
+(?=.*[a-zA-Z].{8,}$)
+
+<? php="HTTPS://".['HTTPS_POST'].['REQUIRED_URI'] -->

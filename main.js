@@ -8,3 +8,8 @@ if (iceCream === "chocolate") {
 }
 
 console.log("This is working!!")
+
+const numbers = [1, 2, 3, 4, 5, 5];
+
+const uniqueNumbers = new Set(numbers)
+console.log(uniqueNumbers)
